@@ -1,0 +1,137 @@
+a{
+    text-decoration: none   ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d1e22;
+
+}
+.heading{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.heading img{
+    height: 130px;
+    padding-left: 20px;
+}
+.img-wrapper{
+    width: 100%;
+    height: 120px;
+    background-color:#393f4d;
+
+}
+.header{
+    width: 100%;
+    margin: 0 0;
+    background: #393f4d;
+    height: 50px;
+    color: #d4d4dc;
+}
+.header h3{
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 5px;
+    float: left;
+    
+
+    margin-top:10px;
+    margin-left:10px
+    
+}
+
+
+.header i{
+    
+    float: right;
+    padding-top: 5px;
+    padding-right: 30px;
+    font-size: 40px;
+    color: #1d1e22;
+   
+}
+.header:hover {
+    background-color: #feda6a;
+    color:#1d1e22 ;
+}
+
+.content-wrapper{
+    width: 1200px;
+    margin:300px auto; 
+    text-align: center;
+
+
+}
+.content-wrapper h3{
+    font-family: 'Caveat', cursive;
+    letter-spacing: 10px;
+    font-size: 30px;
+    padding: 10px 0;    
+    background: #393f4d;
+    color:#d4d4dc;
+    border-radius: 25px;
+}
+
+.content{
+    background: #393f4d;
+    height: 1400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.ele:hover{
+    background-color: #feda6a;
+    color:#1d1e22 ;
+}
+
+.ele{
+    font-family: 'Indie Flower', cursive;
+
+    width:1000px;
+    background: #1d1e22;
+    height:80px;
+    margin:0 auto;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    border-radius: 30px;
+    text-align: left;
+    padding-top:30px;
+    padding-left: 30px;
+    font-size: 40px;
+    color: #d4d4dc;
+    cursor: pointer;
+    
+}
+.ele i{
+    margin-right: 5px;
+}
+.ele-content{
+    width: 1000px;
+    margin: 0 auto;
+    height: 150px;
+    padding-left: 30px;
+    background: #1d1e22;
+    z-index: 5;
+    border-radius: 30px;
+    display: none;
+}
+
+.ele-content p{
+    font-family: 'Indie Flower', cursive;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: left;
+    padding-top:15px;
+    color:#d4d4dc;
+    
+}
+.quiz{
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #393f4d;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>KODING</title>
+        <link rel="stylesheet" href="advanceStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Indie+Flower|Shadows+Into+Light&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading">
+            <div class="img-wrapper">
+                <a href="C:\Users\kushal\Desktop\Koder\index.html"><img src="C:\Users\kushal\Desktop\Koder\img\logo.png" alt=""></a>
+            </div>
+            <div class="header">
+                <h3>LEARN TO CODE THE SMART WAY</h3>
+                <a href="https:\\progate.com" target="_blank"><i class="fa fa-arrow-circle-right"></i></a>
+                <a href="C:\Users\kushal\Desktop\Koder\index.html"><i class="fa fa-home"></i></a>
+                <a href="C:\Users\kushal\Desktop\Koder\pages\basics\basics.html"><i class="fa fa-arrow-circle-left"></i></a>
+
+               </div>
+        </div> 
+        <div class="content-wrapper">
+            <h3>CODE YOUR FIRST PROGRAM</h3>
+            <div class="content">
+                <div class="sampleCode">
+                    #include&ltstdio.h&gt<br>
+                    <br>
+                    int find(int *arr,int n,int k){<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        for(int i=0;i&ltn;i++){<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        if(arr[i]==k)<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return 1;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;                                }<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;                                return 0;<br>
+                                                                                }<br><br>
+                                                                                void main(){<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            int n;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            scanf("%d",&n);<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            int arr[n];<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            for(int i=0;i&ltn;i++){<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    scanf("%d",&arr[i]);<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            int k;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            scanf("%d",&k);<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            if(find(arr,n,k)){<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    printf("Element found");<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            else{<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    printf("Element not found");<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;                            }<br>
+                                                                                }
+
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>#include&ltstdio.h&gt
+                </div>
+                <div class="ele-content">
+                <p>#include<stdio.h> is a statement which tells the compiler to insert the contents of stdio at that particular place.
+                    stdio.h is the header file for standard input and output. This is useful for getting the input from the
+                    user(Keyboard) and output result text to the monitor(screen). With out this header file, one can not display
+                    the results to the users on the screen or cannot input the values through the keyboard.</p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>void main()
+                </div>
+                <div class="ele-content">
+                    <p>main() function is the entry point of any C program. It is the point at which execution of program is started.
+                         When a C program is executed, the execution control goes directly to the main() function.And void specifies that the function does
+                        not return any value.</p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>int n
+                </div>
+                <div class="ele-content">
+                    <p>"int n" means that we want to create a variable or container name 'n' which can store ony integer value.We can name the
+                        variable anything but it has some rules,you can look that up in net, and just like int we can use float and double to store
+                        floating point or real number and char to store characters,boolean for true and false.
+                    </p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>scanf
+                </div>
+                <div class="ele-content">
+                    <p> The scanf function allows you to accept input from standard in, which for us is generally the keyboard. "scanf("%d", &n);"" 
+                        The program will read in an integer value that the user enters on the keyboard (%d is for integers, as is printf, so b must 
+                        be declared as an int) and place that value into n.</p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>arr[n]
+                </div>
+                <div class="ele-content">
+                    <p>what "int arr[n]" does that it allocate memory for n elements of type int, that is we can store n values of type
+                        int.Each value can be accessed by arr[i] where i is the index of element which varies from 0 to n-1 </p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>for loop
+                </div>
+                <div class="ele-content">
+                    <p>"for loop" repeats the statement inside it repeatedly until the condition is false.The first statement inside for loop
+                        is initialisation of counter variable "i",second statement is condition ,the statement runs until this condition
+                        becomes false.The third statement is to update the counter variable so that loop doesn't become infinite. </p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>if else
+                </div>
+                <div class="ele-content">
+                    <p>"if else" is a conditional statement that which check the condition in the "if statement",and if the condition is true 
+                        it executes the statement inside if block otherwise the statements in else block.There are other ways also like else if 
+                        statements,you can check more info on net.
+                    </p>
+                </div>
+                <div class="ele">
+                    <i class="fa fa-angle-double-right"></i>find
+                </div>
+                <div class="ele-content">
+                    <p>find is a function,which takes in three parameters,array,length of array and element to be found,it passes the 
+                        parameters to function where by using the logic it return an integer value ,1 or 0 depending on whether element is 
+                        found or not,and 1 and 0 can be treated as true and false hence it is written as if condition.Try to figure out the 
+                        logic in "find" on your own. 
+                    </p>
+                </div>
+            </div>
+            <a href="quiz.html"><div class="ele quiz">
+                START QUIZ
+            </div></a>
+        </div> 
+        <script type="text/javascript" src="advanceScript.js"></script>
+    </body>
+</html>
