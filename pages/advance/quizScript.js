@@ -59,7 +59,7 @@ for(i=0;i<options.length;i++){
         options[k-contentInd].className = "selected";
         if(ans[contentInd]==k)
         score++;
-        setTimeout(display,1000,contentInd);
+        setTimeout(display,500,contentInd);
  
     });
 }
